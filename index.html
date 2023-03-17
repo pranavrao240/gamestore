@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>home</title>
+    <link rel="stylesheet" href="index2.css">
+    <style>
+        @media screen and (max-width:900px)  {
+            body{
+                background-color: red;
+            }
+            
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <div id = "nav0" >Welcome To P's Game Store</div>
+    <div id="nav">
+        <div id="id1">
+            <a href="C:\Users\LENOVO\Desktop\PRANAV\IMP Documents\New folder\HTML,CSS,JS\CSS\game store\index2.html"><img src="game logo2.jpg" class="border main" width="200" height="200" ></a>
+            <div id="id2">
+                <li class="id3">menu
+                    <ul>
+                        <li>
+                            about owner
+                        </li>
+                        <li>
+                            Contacts
+                        </li>
+                    </ul>
+                </li>
+
+
+            </div>
+        </div>
+            
+        <table  width="100%" height ="10%" class="head2">
+        
+            <td>
+    
+            </td>
+            <tr>
+         
+                
+                <td  class="td1" width="10%" >
+                   <h3>CATEGORIES</h3>
+                </td>
+                <td width="10%" class="text_style">  
+                    <center><a href="not available.html"><h3 >Arcade</h3></a></center>
+                </td>
+                <td class="text_style" width="10%" >
+                    <center><a href="action.html"><h3 >Action</h3></a></center>
+                  
+                </td>
+                <td class="text_style" width="10%" >
+                    <center><a href="not available.html"><h3 >Board</h3></a></center>
+                  
+                </td>
+                <td class="text_style" width="10%" >
+                    <center><a href="not available.html"><h3 >Card</h3></a></center>
+                  
+                </td>
+                <td class="text_style" width="10%" >
+                    <center><a href="not available.html"><h3 >Racing</h3></a></center>
+                  
+                </td>
+                <td class="text_style" width="10%" >
+                    <center><a href="sports.htm"><h3 >Sports</h3></a></center>
+                  
+                </td>
+               
+                   
+               
+    
+            </tr>
+        </table>
+        
+    </div>
+    <!-- <div id="blueprint"><img src="game logo2.jpg" alt=""></div> -->
+    <div>
+        <h1 id="deco">Snake Game</h1>
+        <center>
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides" src="home screen.jpg" style="width:100%">
+                <img class="mySlides" src="snk gm play img.jpg" style="width:100%">
+                <img class="mySlides" src="game over screen.jpg" style="width:100%">
+              
+            
+            </div>
+
+        </center>
+        <a href=""><h3 class="button">Install</h3></a>
+        
+        
+        <h1 style="color: rgb(81, 81, 233);text-decoration: underline;font-style: italic;">Pong Game</h1>
+        <center>
+            <div class="w3-content w3-section" style="max-width:500px">
+                
+                <img class="mySlides2" src="game-icone.png" style="width:100%">
+                <img class="mySlides2" src="pong.jpg" style="width:100%">
+              
+                
+            </div>
+            
+        </center>
+        <a href="F:\applications\output\pong gamez.exe"><h3 class="button">Install</h3></a>
+
+        <h1 style="color: rgb(81, 81, 233);text-decoration: underline;font-style: italic;">Breakout Game</h1>
+        <center>
+            <div class="w3-content w3-section" style="max-width:500px">
+                
+                <img class="mySlides3" src="" style="width:100%">
+                <img class="mySlides3" src="" style="width:100%">
+              
+            
+            </div>
+
+        </center>
+        <a href="F:\applications\output\brekout.exe"><h3 class="button">Install</h3></a>
+          
+          
+        
+    </div>
+    
+    
+
+    
+    
+          <script>
+          var myIndex = 0;
+          carousel();
+          darousel();
+          earousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            
+            
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); 
+            
+            
+        }
+        function darousel(){
+            let j;
+            let y = document.getElementsByClassName("mySlides2");
+            
+            
+            for (j = 0; j < y.length; j++) {
+              y[j].style.display = "none";  
+            
+            }
+            myIndex++;
+            if (myIndex > y.length) {myIndex = 1}    
+            y[myIndex-1].style.display = "block";  
+            setTimeout(darousel, 2000); 
+            
+        }
+        function earousel(){
+            let j;
+            let y = document.getElementsByClassName("mySlides3");
+            
+            
+            for (j = 0; j < y.length; j++) {
+              y[j].style.display = "none";  
+            
+            }
+            myIndex++;
+            if (myIndex > y.length) {myIndex = 1}    
+            y[myIndex-1].style.display = "block";  
+            setTimeout(earousel, 2000); 
+            
+        }
+        
+          
+          
+          </script>
+</body>
+</html>
